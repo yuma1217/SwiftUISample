@@ -11,6 +11,8 @@
 		9E7ECBD62876924800211D9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7ECBD52876924800211D9F /* ContentView.swift */; };
 		9E7ECBD82876924A00211D9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E7ECBD72876924A00211D9F /* Assets.xcassets */; };
 		9E7ECBDB2876924A00211D9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E7ECBDA2876924A00211D9F /* Preview Assets.xcassets */; };
+		9E7ECBE4287694DB00211D9F /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7ECBE3287694DB00211D9F /* Task.swift */; };
+		9E7ECBE72876A7BA00211D9F /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7ECBE62876A7BA00211D9F /* TaskListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		9E7ECBD52876924800211D9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E7ECBD72876924A00211D9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E7ECBDA2876924A00211D9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E7ECBE3287694DB00211D9F /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		9E7ECBE62876A7BA00211D9F /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		9E7ECBD22876924800211D9F /* SwiftUISample */ = {
 			isa = PBXGroup;
 			children = (
+				9E7ECBE1287694C100211D9F /* Reminder */,
 				9E7ECBD32876924800211D9F /* SwiftUISampleApp.swift */,
 				9E7ECBD52876924800211D9F /* ContentView.swift */,
 				9E7ECBD72876924A00211D9F /* Assets.xcassets */,
@@ -65,6 +70,31 @@
 				9E7ECBDA2876924A00211D9F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9E7ECBE1287694C100211D9F /* Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				9E7ECBE52876A7A800211D9F /* Views */,
+				9E7ECBE2287694CA00211D9F /* Models */,
+			);
+			path = Reminder;
+			sourceTree = "<group>";
+		};
+		9E7ECBE2287694CA00211D9F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9E7ECBE3287694DB00211D9F /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9E7ECBE52876A7A800211D9F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E7ECBE62876A7BA00211D9F /* TaskListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E7ECBD62876924800211D9F /* ContentView.swift in Sources */,
+				9E7ECBE4287694DB00211D9F /* Task.swift in Sources */,
 				9E7ECBD42876924800211D9F /* SwiftUISampleApp.swift in Sources */,
+				9E7ECBE72876A7BA00211D9F /* TaskListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +299,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUISample/Preview Content\"";
+				DEVELOPMENT_TEAM = ZCGAJY328W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +328,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUISample/Preview Content\"";
+				DEVELOPMENT_TEAM = ZCGAJY328W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
